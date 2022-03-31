@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'nef';
+    src: url('./fonts/permanentmarker-regular-webfont.eot');
+    src: url('./fonts/permanentmarker-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/permanentmarker-regular-webfont.woff2') format('woff2'),
+         url('./fonts/permanentmarker-regular-webfont.woff') format('woff'),
+         url('./fonts/permanentmarker-regular-webfont.ttf') format('truetype'),
+         url('./fonts/permanentmarker-regular-webfont.svg#permanent_markerregular') format('svg');
+    font-weight:100;
+}
+
+@font-face {
+    font-family: 'st';
+    src: url('./fonts/staatliches-regular-webfont.eot');
+    src: url('./fonts/staatliches-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/staatliches-regular-webfont.woff2') format('woff2'),
+         url('./fonts/staatliches-regular-webfont.woff') format('woff'),
+         url('./fonts/staatliches-regular-webfont.ttf') format('truetype'),
+         url('./fonts/staatliches-regular-webfont.svg#staatlichesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+.event_item .media .media-body h4 {
+	font-family: "st";
+	font-weight:500;
+}
+
+.dontation_item .media .media-body h4{
+	font-family: "st";
+	font-weight:500;
+}
+	
+
+.header_area .navbar .nav .nav-item.submenu ul .nav-item .nav-link {
+	 font: 500 18px/40px 'st';
+}
+.nav_mod1{
+	width:auto;
+	text-align:center;
+	background:white;
+}
+.nav_mod1>span{
+	color: black;
+	 font: 500 14px/35px 'st';
+    text-transform: uppercase;
+}
+
+.nav_mod2{
+	width:auto;
+	text-align:center;
+	background:black;
+	cursor:pointer;
+}
+
+.nav_mod2:hover{
+  background:white;
+}
+.nav_mod2:hover  a{
+	color: black;
+}
+.nav_mod2>a{
+	width:100%;
+	color: white;
+	 font: 300 15px/70px 'st';
+    text-transform: uppercase;
+}
+#nav_mod3>a{
+	color: black;
+	 font: 500 12px/40px 'st';
+    text-transform: uppercase;
+}
+#nav_mod3>a:hover {
+	color:white;
+}
+
+/*-------------------------------------------
+sub-drop-down right
+---------------------------------------------*/
+
+#sub-drop-down-right{
+position: absolute;
+  top: 0%;
+    left: 100%;
+	border:2px solid white;
+	visibility:hidden;
+	opacity:0;
+	border-radius:0px 0px 10px 10px;
+	overflow:hidden;
+	box-shadow:-11px 3px 20px 0px #0b0b0b7a;
+}
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover #sub-drop-down-right{
+	visibility:visible;
+	opacity:1;
+}
+/*--------------------------------------
+end
+----------------------------------------*/
+
+/*-------------------------------------------
+sub-drop-down left
+---------------------------------------------*/
+
+#sub-drop-down-left{
+    position: absolute;
+    top:0%;
+    left: -100%;
+	border:2px solid white;
+	visibility:hidden;
+	opacity:0;
+	border-radius:0px 0px 10px 10px;
+	overflow:hidden;
+	box-shadow:9px 8px 20px 0px #0b0b0b7a;
+}
+.header_area .navbar .nav .nav-item.submenu ul .nav-item:hover #sub-drop-down-left{
+	visibility:visible;
+	opacity:1;
+}
+/*--------------------------------------
+end
+----------------------------------------*/
